@@ -68,6 +68,17 @@ jobs:
     - name: Pack Api.Activity.Contract
       run: dotnet pack ./src/*/Api.Activity.Contract.csproj --no-restore -o ~/nuget  -c Release
 
+    # Api.Entity.Contract
+
+    - name: Restore Api.Entity.Contract
+      run: dotnet restore ./src/*/Api.Entity.Contract.csproj
+
+    - name: Build Api.Entity.Contract
+      run: dotnet build ./src/*/Api.Entity.Contract.csproj --no-restore  -c Release
+
+    - name: Pack Api.Entity.Contract
+      run: dotnet pack ./src/*/Api.Entity.Contract.csproj --no-restore -o ~/nuget  -c Release
+
     # Push
 
     - name: Push Packages
