@@ -8,7 +8,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <RootNamespace>GarageGroup.Infra</RootNamespace>
     <AssemblyName>GarageGroup.Infra.Orchestration.Api.Entity.Contract</AssemblyName>
-    <Version>0.0.1-build.2</Version>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
