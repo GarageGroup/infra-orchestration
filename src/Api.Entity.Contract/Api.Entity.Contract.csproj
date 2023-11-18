@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
@@ -7,8 +7,8 @@
     <InvariantGlobalization>true</InvariantGlobalization>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <RootNamespace>GarageGroup.Infra</RootNamespace>
-    <AssemblyName>GarageGroup.Infra.Orchestration.Api.Activity.Contract</AssemblyName>
-    <Version>0.1.0</Version>
+    <AssemblyName>GarageGroup.Infra.Orchestration.Api.Entity.Contract</AssemblyName>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

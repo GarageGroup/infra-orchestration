@@ -16,7 +16,6 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: |
-            6.0.x
             7.0.x
             8.0.x
 
@@ -68,6 +67,17 @@ jobs:
 
     - name: Pack Api.Activity.Contract
       run: dotnet pack ./src/*/Api.Activity.Contract.csproj --no-restore -o ~/nuget  -c Release
+
+    # Api.Entity.Contract
+
+    - name: Restore Api.Entity.Contract
+      run: dotnet restore ./src/*/Api.Entity.Contract.csproj
+
+    - name: Build Api.Entity.Contract
+      run: dotnet build ./src/*/Api.Entity.Contract.csproj --no-restore  -c Release
+
+    - name: Pack Api.Entity.Contract
+      run: dotnet pack ./src/*/Api.Entity.Contract.csproj --no-restore -o ~/nuget  -c Release
 
     # Push
 
