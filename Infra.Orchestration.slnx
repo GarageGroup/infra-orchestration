@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/.github/workflows/">
+    <File Path="/.github/workflows/dotnet.yml" />
+  </Folder>
+  <Project Path="src/Api.Activity.Contract/Api.Activity.Contract.csproj" />
+  <Project Path="src/Api.Entity.Contract/Api.Entity.Contract.csproj" />
+  <Project Path="src/Api.Instance.Contract/Api.Instance.Contract.csproj" />
+  <Project Path="src/Api.Instance.Entity.InstanceId/Api.Instance.Entity.InstanceId.csproj" />
+</Solution>

@@ -1,5 +1,3 @@
 namespace GarageGroup.Infra;
 
-public interface IOrchestrationActivityApi : IOrchestrationActivityCallSupplier
-{
-}
+public interface IOrchestrationActivityApi : IOrchestrationActivityCallSupplier;
